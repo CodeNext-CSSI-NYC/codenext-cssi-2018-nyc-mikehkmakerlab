@@ -1,0 +1,7 @@
+Hi my name is Michael Okrah.
+
+I just graduated from Frederick Douglass Academy, I took AP Computer Science, AP Physics, AP Physics 1 ,
+ and Mechatronics
+
+I'm proficient in Java, Javascript , Python , and React Native.
+I'm a front end developer intern at Columbia University Medical center 
