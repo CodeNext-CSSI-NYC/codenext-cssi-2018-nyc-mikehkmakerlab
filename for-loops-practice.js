@@ -51,7 +51,7 @@ function containsSpace(str) {
 
 
 
-// Some tests
+//Some tests
 console.log(containsSpace("star wars") == true);
 console.log(containsSpace("     ") == true);
 console.log(containsSpace("apple") == false);
@@ -124,17 +124,3 @@ console.log(reverseString("mike"));
 // Bonus - 8. Write a function isPrime that takes a number and checks if it is prime.
 // It should return either true or false.
 // Recall that a prime number is only divisible by itself and 1.
-
-/*function numOfFactors
-
-var counter = 0;
-function isPrime(num) {
-
-}
-// Here are some tests -- add more
-console.log(isPrime(89) == true);
-console.log(isPrime(91) == false);
-console.log(isPrime(89) == true);
-console.log(isPrime(91) == false);
-
-*/

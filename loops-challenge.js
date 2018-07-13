@@ -19,6 +19,7 @@ function stringTimes(word, amountofTimes) {
 }
 stringTimes("MOM", 6);
 stringTimes("yo", 1);
+console.log("");
 //
 // // Uncomment the line below to test this function.
 // testStringTimes();
@@ -50,26 +51,32 @@ stringTimes("yo", 1);
 // hasb_b("bac") → false
 // *******************************************************************************/
 //
-// function hasb_b() {
-//
-// }
-//
+function hasb_b(word) {
+
+    var firstBlocation = word.indexOf("b");
+    if (word.charAt(firstBlocation + 2) == "b") {
+        return true;
+    }
+    return false;
+}
+console.log(hasb_b("mikeibobo"));
+
 // // Uncomment the line below to test this function.
-// testHasB_B();
-//
-// function testHasB_B() {
-//     console.log();
-//     console.log("hasb_b(\"abcbob\") → true " + hasb_b("abcbob"));
-//     console.log("hasb_b(\"b9b\") → true " + hasb_b("b9b"));
-//     console.log("hasb_b(\"bac\") → false " + hasb_b("bac"));
-//     console.log("hasb_b(\"bbb\") → true " + hasb_b("bbb"));
-//     console.log("hasb_b(\"abcdefb\") → false " + hasb_b("abcdefb"));
-//     console.log("hasb_b(\"123abcbcdbabxyz\") → true " + hasb_b("123abcbcdbabxyz"));
-//     console.log("hasb_b(\"b12\") → false " + hasb_b("b12"));
-//     console.log("hasb_b(\"b1b\") → true " + hasb_b("b1b"));
-//     console.log("hasb_b(\"b12b1b\") → true " + hasb_b("b12b1b"));
-//     console.log("hasb_b(\"bbc\") → false " + hasb_b("bbc"));
-//     console.log("hasb_b(\"bbb\") → true " + hasb_b("bbb"));
-//     console.log("hasb_b(\"bb\") → false " + hasb_b("bb"));
-//     console.log("hasb_b(\"b\") → false " + hasb_b("b"));
-// }
+testHasB_B();
+
+function testHasB_B() {
+    console.log();
+    console.log("hasb_b(\"abcbob\") → true " + hasb_b("abcbob"));
+    console.log("hasb_b(\"b9b\") → true " + hasb_b("b9b"));
+    console.log("hasb_b(\"bac\") → false " + hasb_b("bac"));
+    console.log("hasb_b(\"bbb\") → true " + hasb_b("bbb"));
+    console.log("hasb_b(\"abcdefb\") → false " + hasb_b("abcdefb"));
+    console.log("hasb_b(\"123abcbcdbabxyz\") → true " + hasb_b("123abcbcdbabxyz"));
+    console.log("hasb_b(\"b12\") → false " + hasb_b("b12"));
+    console.log("hasb_b(\"b1b\") → true " + hasb_b("b1b"));
+    console.log("hasb_b(\"b12b1b\") → true " + hasb_b("b12b1b"));
+    console.log("hasb_b(\"bbc\") → false " + hasb_b("bbc"));
+    console.log("hasb_b(\"bbb\") → true " + hasb_b("bbb"));
+    console.log("hasb_b(\"bb\") → false " + hasb_b("bb"));
+    console.log("hasb_b(\"b\") → false " + hasb_b("b"));
+}
