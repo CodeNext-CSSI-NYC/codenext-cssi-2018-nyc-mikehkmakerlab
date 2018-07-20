@@ -50,5 +50,6 @@ function stoneVisual() {
         console.log("O");
     }
     console.log("There are " + newStones + " eggs left.");
+    i
 }
 stoneVisual();
